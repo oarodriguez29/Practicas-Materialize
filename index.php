@@ -18,7 +18,7 @@
 	<!-- NAV -->
 	<nav class="z-depth-3">
 		<!-- NAV-WRAPPER -->
-		<div class="nav-wrapper red darken-4 ">
+		<div class="nav-wrapper red darken-4">
 			<a href="#" class="brand-logo black-text text-lighten-1">
 				<i class="fa fa-ravelry fa-lg" aria-hidden="true"></i>
 			</a>
@@ -49,200 +49,279 @@
 	</nav><!-- FIN NAV -->
 	<!-- UL SIDENAV -->
 	<ul class="sidenav" id="mobile-demo">
-	  <li><a href="sass.html">Sass</a></li>
-	  <li><a href="badges.html">Components</a></li>
-	  <li><a href="collapsible.html">Javascript</a></li>
-	  <li><a href="mobile.html">Mobile</a></li>
+	  <li><a href="#">Sass</a></li>
+	  <li><a href="#">Components</a></li>
+	  <li><a href="#">Javascript</a></li>
+	  <li><a href="#">Mobile</a></li>
 	</ul><!-- FIN UL SIDENAV -->
 </header><!-- FIN HEADER -->
 
-	<!-- DIV CONTAINER -->
+	<!-- SECTION SLIDER.Fullscreen -->
+	<section>
+		<div class="fullscreen">
+			<div class="slider">
+			    <ul class="slides">
+				    <li>
+				    	<img src="../PracticasMaterialize/public/img/img1.jpg"> <!-- random image -->
+				    	<div class="caption center-align">
+				    		<h3 class="orange-text">Otros Subtitulos!</h3>
+				    		<h5 class="light orange-text text-lighten-3">Aqui el slogan.</h5>
+				    	</div>
+				    </li>
+				    <li>
+				    	<img src="../PracticasMaterialize/public/img/img2.jpg"> <!-- random image -->
+				    	<div class="caption left-align">
+				    		<h3>Subtitulo Alineado a la Izquierda</h3>
+				    		<h5 class="light grey-text text-lighten-3">Aqui el slogan.</h5>
+				    	</div>
+				    </li>
+				    <li>
+				    	<img src="../PracticasMaterialize/public/img/img3.jpg"> <!-- random image -->
+				    	<div class="caption right-align">
+				    		<h3>Subtitulo Alineado a la Derecha</h3>
+				    		<h5 class="light grey-text text-lighten-3">Aqui el slogan.</h5>
+				    	</div>
+				    </li>
+				    <li>
+				    	<img src="../PracticasMaterialize/public/img/6.jpg"> <!-- random image -->
+				    	<div class="caption center-align">
+				    		<h3>Otros Subtitulos!</h3>
+				    		<h5 class="light grey-text text-lighten-3">Aqui el slogan.</h5>
+				    	</div>
+				    </li>
+			    </ul>
+			</div>
+		</div>
+	</section><!-- FIN SECTION SLIDER.Fullscreen -->
+
+	<!-- DIV CONTAINER I-->
 	<div class="container">
 		<!-- ROW REGILLAS -->
 		<div class="row indigo lighten-5 z-depth-4">
-			<h4 class="center"><em>Sistemas de Regillas <b class="teal-text lighten-2">Materialize CSS.</b></em></h4>
-			<div class="col m12">
-				<div class="card-panel teal z-depth-3">
-					<span class="white-text">
-						Sistema de Rejillas con Materialize "col m12"
-					</span>
+			<!-- DIV COL S12 -->
+			<div class="col s12">
+				<h4 class="center">
+					<em>Sistemas de Regillas <b class="teal-text lighten-2">Materialize CSS.</b></em>
+				</h4>
+				<hr class="indigo lighten-5 z-depth-1">
+				<div class="col m12">
+					<div class="card-panel teal z-depth-3">
+						<span class="white-text">
+							Sistema de Rejillas con Materialize "col m12"
+						</span>
+					</div>
 				</div>
-			</div>
-			
-			<div class="col m6 offset-m6">
-				<div class="card-panel teal z-depth-3">
-					<span class="white-text">
-						Rejillas con Materialize CSS "col m6 offset-m6"
-					</span>					
+				
+				<div class="col m6 offset-m6">
+					<div class="card-panel teal z-depth-3">
+						<span class="white-text">
+							Rejillas con Materialize CSS "col m6 offset-m6"
+						</span>					
+					</div>
 				</div>
-			</div>
-			<div class="col m6">
-				<div class="card-panel teal z-depth-3">
-					<span class="white-text">
-						Sistema de Rejillas con Materialize "col m6"
-					</span>					
+				<div class="col m6">
+					<div class="card-panel teal z-depth-3">
+						<span class="white-text">
+							Sistema de Rejillas con Materialize "col m6"
+						</span>					
+					</div>
 				</div>
-			</div>
-		</div><!-- FIN ROW REGILLAS -->
+			</div><!-- FIN ROW REGILLAS -->
+		</div><!-- FIN DIV COL S12 -->
 
 		<!-- ROW 'card-panel' -->
 	    <div class="row indigo lighten-5 z-depth-4">
-	    	<h4 class="center"><em>Clase 'card-panel' <b class="teal-text">Materialize CSS.</b></em></h4>
-	      <div class="col s12 m6 19">
-		    	<div class="card-panel grey darken-1 z-depth-2">
-		      		<span class="white-text">
-		      			<h6>'card-panel' <em>Gris</em> con Materialize CSS.</h6>
+			<!-- DIV COL S12 -->
+			<div class="col s12">	    	
+		      <h4 class="center">
+		      	<em>Clase 'card-panel' <b class="teal-text">Materialize CSS.</b></em>
+		      </h4>
+		      <hr class="indigo lighten-5 z-depth-1">
+		      <div class="col s12 m4">
+		      	<div class="card-panel hoverable z-depth-2">
+		      		<div class="col s4 m6 14">
+		      			<img class="responsive-img circle" alt="Foto de Perfil" src="../PracticasMaterialize/public/img/perfil.jpg">		      			
+		      		</div>
+		      		<span>
+		      			<h5>oarodriguez</h5>
 		      		</span>
-		      		<p>I am convenient because I require little markup to use effectively. I am similar to what i	called a panel in other frameworks.</p>
-		    	</div>
-	      </div>
-	      <div class="col s12 m6 19">
-		    	<div class="card-panel yellow darken-4 z-depth-2">
-		      		<span class="white-text">
-		      			<h6>'card-panel' <em>Amarillo</em> con Materialize CSS.</h6>
-		      		</span>
-		      		<p>I am convenient because I require little markup to use effectively. I am similar to what i	called a panel in other frameworks.</p>
-		    	</div>
-	      </div>
+		      		<p>
+		      			<em>
+		      				<u class="truncate">Trabajando los Medias CSS de Materialize Para Perfiles de User's</u>
+		      			</em>
+		      		</p>
+		      	</div>
+		      </div>
+		      <div class="col s12 m6 19">
+			    	<div class="card-panel hoverable grey darken-1 z-depth-2">
+			      		<span class="white-text">
+			      			<h6>'card-panel' <em>Gris</em> con Materialize CSS.</h6>
+			      		</span>
+			      		<p class="truncate">Haciendo Uso de la Clase "truncate", para los Puntos Suspensivos.</p>
+			    	</div>
+		      </div>
+		      <div class="col s12 m6 19">
+			    	<div class="card-panel hoverable yellow darken-4 z-depth-2">
+			      		<span class="white-text">
+			      			<h6>'card-panel' <em>Amarillo</em> con Materialize CSS.</h6>
+			      		</span>
+			      		<p class="truncate">I am convenient because I require little markup to use effectively. I am similar to what i	called a panel in other frameworks.</p>
+			    	</div>
+		      </div>
+	        </div><!-- FIN DIV COL S12 -->
 	    </div>
 
 	    <div class="row indigo lighten-5 z-depth-4">
-	    	<h4 class="center"><em>Clase 'card-panel' <b class="teal-text">Materialize CSS.</b></em></h4>
-		    <div class="col s12 m4 13">
-		      	<div class="card-panel blue darken-3 z-depth-2">
-		      		<div class="center">
-		      			<i class="fa fa-address-card fa fa-3x" aria-hidden="true"></i>
-		      		</div>
-		        	<span class="white-text">
-		        		<h6>'card-panel' <em>Azul</em> con Materialize CSS.</h6>
-		        	</span>
-		        	<p>Trabajando Clase 'card-panel' con Regillas 's12 m4' de Materialize CSS</p>
-		      </div>
-		    </div>
-		    <div class="col s12 m8 13">
-		    	<div class="col s12 m4">
-		      		<div class="card-panel cyan darken-3 z-depth-2">
-		      			<div class="center">
-		      				<i class="fa fa-address-card fa fa-3x" aria-hidden="true"></i>
-		      			</div>
-		      			<p class="center">Trabajando Clase 'card-panel' con Regillas 's12 m4' dentro de Regillas 's12 m8'</p>
-		      		</div>
-		    	</div>
-		    	<div class="col s12 m4">
-		    		<div class="card-panel teal accent-1 z-depth-2">
-		    			<div class="center">
-		    				<i class="fa fa-address-card fa fa-3x" aria-hidden="true"></i>
-		    			</div>
-		    			<p class="center">Trabajando Clase 'card-panel' con Regillas 's12 m4' dentro de Regillas 's12 m8'</p>
-		    		</div>
-		    	</div>
-		    	<div class="col s12 m4">
-		    		<div class="card-panel blue accent-2 z-depth-2">
-		    			<div class="center">
-		    				<i class="fa fa-address-card fa fa-3x" aria-hidden="true"></i>
-		    			</div>
-		    			<p class="center">Trabajando Clase 'card-panel' con Regillas 's12 m4' dentro de Regillas 's12 m8'</p>
-		    		</div>
-		    	</div>
-		    </div>
+			<!-- DIV COL S12 -->
+			<div class="col s12">	    	
+		    	<h4 class="center">
+		    		<em>Clase 'card-panel' <b class="teal-text">Materialize CSS.</b></em>
+		    	</h4>
+		    	<hr class="indigo lighten-5 z-depth-1">
+			    <div class="col s12 m4 13">
+			      	<div class="card-panel hoverable blue darken-3 z-depth-2">
+			      		<div class="center">
+			      			<i class="fa fa-address-card fa fa-3x" aria-hidden="true"></i>
+			      		</div>
+			        	<span class="white-text">
+			        		<h6>'card-panel' <em>Azul</em> con Materialize CSS.</h6>
+			        	</span>
+			        	<p>Trabajando Clase 'card-panel' con Regillas 's12 m4' de Materialize CSS</p>
+			      </div>
+			    </div>
+			    <div class="col s12 m8 13">
+			    	<div class="col s12 m4">
+			      		<div class="card-panel hoverable cyan darken-3 z-depth-2">
+			      			<div class="center">
+			      				<i class="fa fa-address-card fa fa-3x" aria-hidden="true"></i>
+			      			</div>
+			      			<p class="center">Trabajando Clase 'card-panel' con Regillas 's12 m4' dentro de Regillas 's12 m8'</p>
+			      		</div>
+			    	</div>
+			    	<div class="col s12 m4">
+			    		<div class="card-panel hoverable teal accent-1 z-depth-2">
+			    			<div class="center">
+			    				<i class="fa fa-address-card fa fa-3x" aria-hidden="true"></i>
+			    			</div>
+			    			<p class="center">Trabajando Clase 'card-panel' con Regillas 's12 m4' dentro de Regillas 's12 m8'</p>
+			    		</div>
+			    	</div>
+			    	<div class="col s12 m4">
+			    		<div class="card-panel hoverable blue accent-2 z-depth-2">
+			    			<div class="center">
+			    				<i class="fa fa-address-card fa fa-3x" aria-hidden="true"></i>
+			    			</div>
+			    			<p class="center">Trabajando Clase 'card-panel' con Regillas 's12 m4' dentro de Regillas 's12 m8'</p>
+			    		</div>
+			    	</div>
+			    </div>
+		    </div><!-- FIN DIV COL S12 -->
 	    </div>
 	    <!-- FIN ROW 'card-panel' -->
 
 	    <!-- ROW FORMULARIO -->
 	    <div class="row indigo lighten-5 z-depth-4">
-	    	<h4 class="center">
-	    		Formularios y Tipos de 'inputs' con <em><b class="teal-text">Materializa CSS.</b></em>
-	    	</h4>
-	    	<!-- ROW -->
-			<div class="row">
-				<!-- DIV.CONTAINER -->
-				<div class="container">
-				  <!-- FORM EXAMPLE -->	
-				  <form class="col s12 z-depth-1">
-				    <div class="row">
-				      <div class="input-field col s4">
-				        <i class="fa fa-user prefix"></i>
-				        <input id="icon_prefix" type="text" class="validate">
-				        <label for="icon_prefix">First Name</label>
-				      </div>
-				      <div class="input-field col s4">
-				        <i class="fa fa-phone prefix"></i>
-				        <input id="icon_telephone" type="tel" class="validate">
-				        <label for="icon_telephone">Telephone</label>
-				      </div>
-				      <div class="input-field col s4">
-				        <i class="fa fa-envelope prefix"></i>
-				        <input id="icon_env" type="tel" class="validate">
-				        <label for="icon_env">Email</label>			        
-				      </div>			      
-				    </div>
+			<!-- DIV COL S12 -->
+			<div class="col s12">	    	
+		    	<h4 class="center">
+		    		Formularios y Tipos de 'inputs' con <em><b class="teal-text">Materializa CSS.</b></em>
+		    	</h4>
+		    	<hr class="indigo lighten-5 z-depth-1">
+		    	<!-- ROW -->
+				<div class="row">
+					<!-- DIV.CONTAINER -->
+					<div class="container">
+					  <!-- FORM EXAMPLE -->	
+					  <form class="col s12 z-depth-1">
+					    <div class="row">
+					      <div class="input-field col s4">
+					        <i class="fa fa-user prefix"></i>
+					        <input id="icon_prefix" type="text" class="validate">
+					        <label for="icon_prefix">First Name</label>
+					      </div>
+					      <div class="input-field col s4">
+					        <i class="fa fa-phone prefix"></i>
+					        <input id="icon_telephone" type="tel" class="validate">
+					        <label for="icon_telephone">Telephone</label>
+					      </div>
+					      <div class="input-field col s4">
+					        <i class="fa fa-envelope prefix"></i>
+					        <input id="icon_env" type="tel" class="validate">
+					        <label for="icon_env">Email</label>			        
+					      </div>			      
+					    </div>
 
-					<div class="row">
-						<div class="input-field col s12">
+						<div class="row">
+							<div class="input-field col s12">
+								<div class="input-field col s6">
+									<input id="email" type="email" class="validate">
+									<label for="email">Email</label>
+									<span class="helper-text" data-error="Email Invalido" data-success="">Trabajando <b>"textarea"</b> Con mensajes de Validación</span>
+								</div>
+								<div class="input-field col s6">
+									<i class="fa fa-pencil prefix"></i>
+									<textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+									<label for="icon_prefix2">First Name</label>
+									<span class="helper-text" data-error="Email Invalido" data-success="">Trabajando <b>"textarea"</b> con Icono</span>
+								</div>						
+							</div>
+							<!-- TEXTAREA -->
+							<div class="input-field col s12">
+								<input disabled value="Campo 'input' Deshabilitado" id="disabled" type="text" class="validate">
+								<label for="disabled">Disabled</label>
+							</div><!-- FIN TEXTAREA -->
+
+							<!-- INPUT FILE -->
+							<div class="file-field input-field col s12 m6">
+							  <div class="btn">
+							    <span>Archivo</span>
+							    <input type="file">
+							  </div>
+							  <div class="file-path-wrapper">
+							    <input class="file-path validate" type="text">
+							  </div>
+							</div>
+
+							<!-- INPUT FILE MULTIPLE -->
+							<div class="file-field input-field col s12 m6">
+							  <div class="btn">
+							    <span>Archivos</span>
+							    <input type="file" multiple>
+							  </div>
+							  <div class="file-path-wrapper">
+							    <input class="file-path validate" type="text" placeholder="Carga uno o más Archivos">
+							  </div>
+							</div><!-- FIN INPUTS FILE -->
+
+							<!-- INPUTS TEXTAREA -->						
 							<div class="input-field col s6">
-								<input id="email" type="email" class="validate">
-								<label for="email">Email</label>
-								<span class="helper-text" data-error="Email Invalido" data-success="">Trabajando <b>"textarea"</b> Con mensajes de Validación</span>
+							  <input id="input_text" type="text" data-length="10">
+							  <label for="input_text">Input text</label>
 							</div>
 							<div class="input-field col s6">
-								<i class="fa fa-pencil prefix"></i>
-								<textarea id="icon_prefix2" class="materialize-textarea"></textarea>
-								<label for="icon_prefix2">First Name</label>
-								<span class="helper-text" data-error="Email Invalido" data-success="">Trabajando <b>"textarea"</b> con Icono</span>
-							</div>						
-						</div>
-						<!-- TEXTAREA -->
-						<div class="input-field col s12">
-							<input disabled value="Campo 'input' Deshabilitado" id="disabled" type="text" class="validate">
-							<label for="disabled">Disabled</label>
-						</div><!-- FIN TEXTAREA -->
-
-						<!-- INPUT FILE -->
-						<div class="file-field input-field col s12 m6">
-						  <div class="btn">
-						    <span>Archivo</span>
-						    <input type="file">
-						  </div>
-						  <div class="file-path-wrapper">
-						    <input class="file-path validate" type="text">
-						  </div>
-						</div>
-
-						<!-- INPUT FILE MULTIPLE -->
-						<div class="file-field input-field col s12 m6">
-						  <div class="btn">
-						    <span>Archivos</span>
-						    <input type="file" multiple>
-						  </div>
-						  <div class="file-path-wrapper">
-						    <input class="file-path validate" type="text" placeholder="Carga uno o más Archivos">
-						  </div>
-						</div><!-- FIN INPUTS FILE -->
-
-						<!-- INPUTS TEXTAREA -->						
-						<div class="input-field col s6">
-						  <input id="input_text" type="text" data-length="10">
-						  <label for="input_text">Input text</label>
-						</div>
-						<div class="input-field col s6">
-						  <textarea id="textarea2" class="materialize-textarea" data-length="120"></textarea>
-						  <label for="textarea2">Textarea</label>
-						</div><!-- FIN INPUTS TEXTAREA -->
-					</div>		    
-				  </form><!-- FIN FORM EXAMPLE -->
-				</div><!-- FIN DIV.CONTAINER -->
-			</div><!-- FIN ROW -->	    	
+							  <textarea id="textarea2" class="materialize-textarea" data-length="120"></textarea>
+							  <label for="textarea2">Textarea</label>
+							</div><!-- FIN INPUTS TEXTAREA -->
+						</div>		    
+					  </form><!-- FIN FORM EXAMPLE -->
+					</div><!-- FIN DIV.CONTAINER -->
+				</div><!-- FIN ROW -->
+			</div><!-- FIN DIV COL S12 -->
 		</div><!-- FIN ROW FORMULARIO -->
 
+		<!-- DIV. Form example -->
 		<div class="row indigo lighten-5 z-depth-4">
+			<!-- DIV.COL S12 -->
 			<div class="col s12">
 				<h4 class="center">Formulario Ejemplo 
 					<b class="teal-text"><em>Materialize CSS.</em></b>
 				</h4>
-
+				<hr class="indigo lighten-5 z-depth-1">
+				<!-- DIV.ROW -->
 				<div class="row">
 					<!-- DIV.CONTAINER -->
 					<div class="container">
+						<!-- Form Ejemplo -->
 						<form class="col s12 z-depth-1" name="ejemplo" method="POST" action="">
 							<div class="row">
 								<div class="input-field col s4">
@@ -329,14 +408,15 @@
 									<i class="fa fa-send right"></i>
 								</button>
 							</footer><br>							
-						</form>
-					</div>
-				</div>
-			</div>
-		</div>
+						</form><!-- FIN Form Ejemplo -->
+					</div><!-- FIN DIV.CONTAINER -->
+				</div><!-- FIN DIV.ROW -->
+			</div><!-- FIN DIV.COL S12 -->
+		</div><!-- FIN DIV Form example -->
 
+		<!--BOTON FLOTANTE I-->
 		<div class="fixed-action-btn">
-			<a class="btn-floating btn-large red darken-4 z-depth-4">
+			<a class="btn-floating btn-large pulse red darken-4 z-depth-4">
 				<i class="large fa fa-plus-circle"></i>
 			</a>
 			<ul>
@@ -361,13 +441,18 @@
 					</a>
 				</li>
 			</ul>
-		</div>
+		</div><!--FIN BOTON FLOTANTE I-->
 
+<!--=======================================================================-->
+
+		<!-- DIV Colapsables example -->
 		<div class="row indigo lighten-5 z-depth-4">
+			<!-- DIV.COL S12 -->
 			<div class="col s12">
 				<h4 class="center">Colapsables con 
 					<b class="teal-text"><em>Materialize CSS.</em></b>
 				</h4>
+				<hr class="indigo lighten-5 z-depth-1">
 				<div class="row">
 					<div class="container">
 						<ul class="collapsible popout">
@@ -420,13 +505,326 @@
 						</ul>					
 					</div>
 				</div>
-			</div>
-		</div>
+			</div><!-- FIN DIV.COL S12 -->
+		</div><!-- FIN DIV Colapsables example -->
 
-	</div><!-- FIN DIV CONTAINER -->
+		<!-- DIV Tables example -->
+		<div class="row indigo lighten-5 z-depth-4">
+			<!-- DIV COL S12 -->
+			<div class="col s12">
+				<h4 class="center">Tablas & ToolsTips con 
+					<b class="teal-text"><em>Materialize CSS.</em></b>
+				</h4>
+				<hr class="indigo lighten-5 z-depth-1">
+				<!-- DIV.Container -->
+				<div class="container">
+				<br>
+					<!-- TABLE -->
+					<table class="highlight centered responsive-table">
+						<thead>
+							<tr>
+							    <th>Name</th>
+							    <th>Item Name</th>
+							    <th>Item Price</th>
+							    <th>Acciòn</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Alvin</td>
+								<td>Eclair</td>
+								<td>$0.87</td>							
+								<td>
+									<a class="tooltip_left btn-floating btn-large waves-effect cyan darken-2 btn" href="#">
+										<i class="fa fa-plus-circle"></i>
+									</a>
+									<a class="tooltip_right btn-floating btn-large waves-effect cyan darken-2" href="#">
+										<i class="fa fa-pencil"></i>
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td>Alan</td>
+								<td>Jellybean</td>
+								<td>$3.76</td>
+								<td>
+									<a class="tooltip_left btn-floating btn-large waves-effect cyan darken-2" href="#">
+										<i class="fa fa-plus-circle"></i>
+									</a>
+									<a class="tooltip_right btn-floating btn-large waves-effect cyan darken-2" href="#">
+										<i class="fa fa-pencil"></i>
+									</a>
+								</td>
+							</tr>
+						    <tr>
+						    	<td>Jonathan</td>
+						    	<td>Lollipop</td>
+						    	<td>$7.00</td>
+								<td>
+									<a class="tooltip_left btn-floating btn-large waves-effect cyan darken-2" href="#">
+										<i class="fa fa-plus-circle"></i>
+									</a>
+									<a class="tooltip_right btn-floating btn-large waves-effect cyan darken-2" href="#">
+										<i class="fa fa-pencil"></i>
+									</a>
+								</td>
+						    </tr>
+						</tbody>
+					</table><!-- FIN TABLE -->		
+				</div><!-- FIN DIV.Container -->
+			</div><!-- FIN DIV COL S12 -->
+		</div><!-- DIV Tables example -->
 
-	<footer class="">
-	</footer>
+		<!-- DIV Parallax & Slider -->
+		<div class="row indigo lighten-5 z-depth-4">
+			<!-- DIV COL S12 -->
+			<div class="col s12">
+				<h4 class="center">Slider & Parallax con 
+					<b class="teal-text"><em>Materialize CSS.</em></b>
+				</h4>
+				<hr class="indigo lighten-5 z-depth-1">
+				<!-- DIV.Container slider-->
+				<div class="container">
+				<br>		
+					<!-- Seccion Slider Example -->
+					<section>
+						<div class="fullscreen">
+							<div class="slider">
+							    <ul class="slides">
+								    <li>
+								    	<img src="../PracticasMaterialize/public/img/depositphotos.jpg"> <!-- random image -->
+								    	<div class="caption center-align">
+								    		<h3 class="orange-text">Otros Subtitulos!</h3>
+								    		<h5 class="light orange-text text-lighten-3">Aqui el slogan.</h5>
+								    	</div>
+								    </li>
+								    <li>
+								    	<img src="../PracticasMaterialize/public/img/img1.jpg"> <!-- random image -->
+								    	<div class="caption left-align">
+								    		<h3>Subtitulo Alineado a la Izquierda</h3>
+								    		<h5 class="light grey-text text-lighten-3">Aqui el slogan.</h5>
+								    	</div>
+								    </li>
+								    <li>
+								    	<img src="../PracticasMaterialize/public/img/img2.jpg"> <!-- random image -->
+								    	<div class="caption right-align">
+								    		<h3>Subtitulo Alineado a la Derecha</h3>
+								    		<h5 class="light grey-text text-lighten-3">Aqui el slogan.</h5>
+								    	</div>
+								    </li>
+								    <li>
+								    	<img src="../PracticasMaterialize/public/img/img3.jpg"> <!-- random image -->
+								    	<div class="caption center-align">
+								    		<h3>Otros Subtitulos!</h3>
+								    		<h5 class="light grey-text text-lighten-3">Aqui el slogan.</h5>
+								    	</div>
+								    </li>
+							    </ul>
+							</div>
+						</div>
+					</section>	<!-- Seccion Slider Example -->
+
+				</div><!-- FIN DIV CONTAINER Slider-->
+			</div><!-- FIN DIV COL S12 -->
+		</div><!-- FIN DIV Parallax & Slider -->
+	</div><!-- FIN DIV CONTAINER I-->
+
+	<!-- PARALLAX -->
+	<section>
+		<div class="row">
+			<!-- DIV.COL S12 -->
+		 	<div class="col s12">
+				<div class="section white">
+					<div class="container">
+						<h2 class="header">Parallax imagen 1</h2>
+						<p class="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground content while scrolling.</p>
+					</div>
+				</div>
+				<div class="parallax-container">
+					<div class="parallax"><img src="../PracticasMaterialize/public/img/img1.jpg"></div>
+				</div>
+				<div class="section white center">
+					<div class="container center">
+						<h2 class="header">Parallax imagen 2</h2>
+						<h6>
+							<p class="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground content while scrolling.</p>
+						</h6>
+					</div>
+				</div>
+				<div class="parallax-container">
+					<div class="parallax"><img src="../PracticasMaterialize/public/img/img2.jpg"></div>
+				</div>
+
+			</div><!-- FIN DIV.COL S12 -->
+		</div><!-- FIN DIV.Row -->
+	</section><!-- FIN PARALLAX -->
+
+	<!-- DIV.Container II-->
+	<div class="container">
+		<!-- DIV Carousel example -->
+		<div class="row indigo lighten-5 z-depth-4">
+			<!-- DIV COL S12 -->
+			<div class="col s12">
+				<h4 class="center">Carousel de Imagenes con 
+					<b class="teal-text"><em>Materialize CSS.</em></b>
+				</h4>
+				<hr class="indigo lighten-5 z-depth-1">
+				<!-- DIV.Container carousel-->
+				<div class="container">
+					<div class="carousel center">
+				    	<a class="carousel-item" href="#one!">
+				    		<img src="../PracticasMaterialize/public/img/img1.jpg">
+				    	</a>
+				    	<a class="carousel-item" href="#one!">
+				    		<img src="../PracticasMaterialize/public/img/img2.jpg">
+				    	</a>
+				    	<a class="carousel-item" href="#one!">
+				    		<img src="../PracticasMaterialize/public/img/img3.jpg">
+				    	</a>
+				    	<a class="carousel-item" href="#one!">
+				    		<img src="../PracticasMaterialize/public/img/6.jpg">
+				    	</a>
+				    	<a class="carousel-item" href="#one!">
+				    		<img src="../PracticasMaterialize/public/img/5.jpg">
+				    	</a>
+				    	<a class="carousel-item" href="#one!">
+				    		<img src="../PracticasMaterialize/public/img/11.jpg">
+				    	</a>
+				  	</div>
+				</div><!-- FIN DIV.Container carousel-->
+			</div><!-- FIN DIV COL S12 -->
+		</div><!-- DIV Carousel example -->
+
+		<!-- DIV Modal's example -->
+		<div class="row indigo lighten-5 z-depth-4">
+			<!-- DIV COL S12 -->
+			<div class="col s12">
+				<h4 class="center">Ventanas Modales con 
+					<b class="teal-text"><em>Materialize CSS.</em></b>
+				</h4>
+				<hr class="indigo lighten-5 z-depth-1">
+				  <!-- DIV.Container Modal-->
+				  <div class="row">
+					  <!-- Modal Trigger -->
+					  <div class="col s6">
+					  	  <div class="">Href</div>
+					  	  <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Modal</a>
+					  </div>
+					  <div class="sol s6">
+					  	  <div class="">Buttom</div>
+						  <button data-target="modal1" class="btn modal-trigger">Modal</button>
+					  </div>
+					  <br>
+					  <div class="col s6">
+					  	  <div class="">Href</div>
+					  	  <a class="waves-effect waves-light btn modal-trigger" href="#modal2">Modal</a>
+					  </div>
+					  <div class="sol s6">
+					  	  <div class="">Buttom</div>
+						  <button data-target="modal2" class="btn modal-trigger">Modal</button>
+					  </div>
+					  <br>
+					  <div class="col s6">
+					  	  <div class="">Href</div>
+					  	  <a class="waves-effect waves-light btn modal-trigger" href="#modal3">Modal</a>
+					  </div>
+					  <div class="sol s6">
+					  	  <div class="">Buttom</div>
+						  <button data-target="modal3" class="btn modal-trigger">Modal</button>
+					  </div>
+				  </div>
+
+				  <!-- Modal Structure I-->
+				  <div id="modal1" class="modal">
+				    <div class="modal-content">
+				      <h4>Modal Header</h4>
+				      <p>contenido del Modal</p>
+				    </div>
+				    <div class="modal-footer">
+			      		<a href="" class="modal-close waves-effect waves-green btn-flat">Cerrar</a>
+				    </div>
+				  </div><!-- FIN DIV.Container Modal-->
+
+				  <!-- Modal Structure II-->
+				  <div id="modal2" class="modal modal-fixed-footer">
+				    <div class="modal-content">
+				      <h4>Modal Header</h4>
+				      <p>contenido del Modal</p>
+				    </div>
+				    <div class="modal-footer">
+			      		<a href="" class="modal-close waves-effect waves-green btn-flat">Cerrar</a>
+				    </div>
+				  </div><!-- FIN DIV.Container Modal-->
+
+				  <!-- Modal Structure III-->
+				  <div id="modal3" class="modal bottom-sheet">
+				    <div class="modal-content">
+				      <h4>Modal Header</h4>
+				      <p>contenido del Modal</p>
+				    </div>
+				    <div class="modal-footer">
+			      		<a href="" class="modal-close waves-effect waves-green btn-flat">Cerrar</a>
+				    </div>
+				  </div><!-- FIN DIV.Container Modal-->
+
+			</div><!-- FIN DIV COL S12 -->
+		</div><!-- DIV Modal's example -->
+
+		<!-- DIV Modal's example -->
+		<div class="row indigo lighten-5 z-depth-4">
+			<!-- DIV COL S12 -->
+			<div class="col s12">
+				<div class="row">
+				<h4 class="center">Nueva Sección con 
+					<b class="teal-text"><em>Materialize CSS.</em></b>
+				</h4>
+				<hr class="indigo lighten-5 z-depth-1">
+
+				</div>
+
+			</div><!-- FIN DIV COL S12 -->
+		</div><!-- DIV Modal's example -->
+
+	</div><!-- FIN DIV.Container II-->
+
+    <footer class="page-footer red darken-4">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">Contacto</h5>
+            <p class="grey-text text-lighten-4">Contactanos Enviando un Correo o por Nuestras Redes Sociales.</p>
+            
+				<div class="input-field col s8">
+					<i class="fa fa-envelope-o prefix"></i>
+					<input id="mail" type="email" class="validate">
+					<label for="mail">Email</label>
+					<button class="btn waves-effect waves-light grey darken-4" type="" name="action">Enviar
+						<i class="fa fa-send right"></i>
+					</button>
+				</div>	
+			
+          	</div>
+          <div class="center col l4 offset-l2 s12">
+            <h5 class="white-text">Redes Sociales</h5>
+            <ul>
+              <li><a class="grey-text text-lighten-3" title="facebook" href="#"><i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i></a></li>
+              <li><a class="grey-text text-lighten-3" title="twiter" href="#"><i class="fa fa-twitter-square fa-lg" aria-hidden="true"></i></a></li>
+              <li><a class="grey-text text-lighten-3" title="google+" href="#"><i class="fa fa-google-plus-official fa-lg" aria-hidden="true"></i></a></li>
+              <li><a class="grey-text text-lighten-3" title="instagram" href="#"><i class="fa fa-instagram fa-lg" aria-hidden="true"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+        © 2019 Copyright oarodriguez
+        <a class="grey-text text-lighten-4 right" href="#">
+        	<i class="fa fa-linkedin-square fa-lg" aria-hidden="true"></i>
+        	<i class="fa fa-github-square fa-lg" aria-hidden="true"></i>
+        </a>
+        </div>
+      </div>
+    </footer>
 
 	<!-- JQuery JS v-2.2.3 -->
 	<script src="public/js/jQuery/jquery-2.2.3.min.js"></script>
@@ -450,7 +848,34 @@
 	    $('.fixed-action-btn').floatingActionButton();
 	    /* Inicializo los Colapsibles */
 	    $('.collapsible').collapsible();
-	  });		
+	    /* Inicializacion del ToolsTips */
+	    $('.tooltip_left').tooltip({
+	    	position: 'left',
+	    	html: 'Agregar!',
+	    	enterDelay: 200
+	    });
+	    $('.tooltip_right').tooltip({
+	    	position: 'right',
+	    	html: 'Editar!',	    	
+	    	enterDelay: 200
+	    });
+	    /* Inicializacion del Slider */
+	    $('.slider').slider();
+	    /* Inicializacion de Parallax */
+	    $('.parallax-container').parallax();
+	    /* Inicializacion de Carousel */
+	    $('.carousel').carousel();
+	    /* Inicializacion del Modal*/
+	    $('.modal').modal();
+
+
+	  });
+	  /* Muestra el Ancho de la Ventana al Reducir el Navegador.
+	  *
+	  * $( window ).resize(function() {
+	  * $( "body" ).prepend( "<div>" + $( window ).width() + "</div>" );
+	  * });	  
+	  */
 	</script>
 </body>
 </html>
