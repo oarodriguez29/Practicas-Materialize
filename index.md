@@ -12,6 +12,7 @@
 	<link rel="stylesheet" href="public/css/inputs.css">
 </head>
 <body>
+
 <!-- HEADER -->
 <header>
 	<!-- NAV -->
@@ -54,6 +55,7 @@
 	  <li><a href="#">Mobile</a></li>
 	</ul><!-- FIN UL SIDENAV -->
 </header><!-- FIN HEADER -->
+
 	<!-- SECTION SLIDER.Fullscreen -->
 	<section>
 		<div class="fullscreen">
@@ -91,6 +93,7 @@
 			</div>
 		</div>
 	</section><!-- FIN SECTION SLIDER.Fullscreen -->
+
 	<!-- DIV CONTAINER I-->
 	<div class="container">
 		<!-- ROW REGILLAS -->
@@ -125,6 +128,7 @@
 				</div>
 			</div><!-- FIN ROW REGILLAS -->
 		</div><!-- FIN DIV COL S12 -->
+
 		<!-- ROW 'card-panel' -->
 	    <div class="row indigo lighten-5 z-depth-4">
 			<!-- DIV COL S12 -->
@@ -166,6 +170,7 @@
 		      </div>
 	        </div><!-- FIN DIV COL S12 -->
 	    </div>
+
 	    <div class="row indigo lighten-5 z-depth-4">
 			<!-- DIV COL S12 -->
 			<div class="col s12">	    	
@@ -213,6 +218,7 @@
 		    </div><!-- FIN DIV COL S12 -->
 	    </div>
 	    <!-- FIN ROW 'card-panel' -->
+
 	    <!-- ROW FORMULARIO -->
 	    <div class="row indigo lighten-5 z-depth-4">
 			<!-- DIV COL S12 -->
@@ -244,6 +250,7 @@
 					        <label for="icon_env">Email</label>			        
 					      </div>			      
 					    </div>
+
 						<div class="row">
 							<div class="input-field col s12">
 								<div class="input-field col s6">
@@ -263,6 +270,7 @@
 								<input disabled value="Campo 'input' Deshabilitado" id="disabled" type="text" class="validate">
 								<label for="disabled">Disabled</label>
 							</div><!-- FIN TEXTAREA -->
+
 							<!-- INPUT FILE -->
 							<div class="file-field input-field col s12 m6">
 							  <div class="btn">
@@ -273,6 +281,7 @@
 							    <input class="file-path validate" type="text">
 							  </div>
 							</div>
+
 							<!-- INPUT FILE MULTIPLE -->
 							<div class="file-field input-field col s12 m6">
 							  <div class="btn">
@@ -283,6 +292,7 @@
 							    <input class="file-path validate" type="text" placeholder="Carga uno o más Archivos">
 							  </div>
 							</div><!-- FIN INPUTS FILE -->
+
 							<!-- INPUTS TEXTAREA -->						
 							<div class="input-field col s6">
 							  <input id="input_text" type="text" data-length="10">
@@ -298,6 +308,7 @@
 				</div><!-- FIN ROW -->
 			</div><!-- FIN DIV COL S12 -->
 		</div><!-- FIN ROW FORMULARIO -->
+
 		<!-- DIV. Form example -->
 		<div class="row indigo lighten-5 z-depth-4">
 			<!-- DIV.COL S12 -->
@@ -368,6 +379,7 @@
 											<span>F</span>
 										</label>
 									</div>
+
 									<!-- SELECT IN FORM -->
 									<div class="input-field col s12 m4">
 										<select>
@@ -377,6 +389,7 @@
 										</select>
 										<label>Tipo de Vivienda</label>
 									</div><!-- FIN SELECT IN FORM -->
+
 									<!-- INPUT FILE -->
 									<div class="file-field input-field col s12 m6">
 										<div class="btn light-blue accent-1">
@@ -389,6 +402,7 @@
 									</div><!-- FIN INPUT FILE -->
 								</div><!-- FIN ROW RADIO BUTTON -->
 							</div>
+
 							<footer class="center">
 								<button class="btn waves-effect waves-light red darken-4" type="" name="action">Enviar
 									<i class="fa fa-send right"></i>
@@ -399,6 +413,7 @@
 				</div><!-- FIN DIV.ROW -->
 			</div><!-- FIN DIV.COL S12 -->
 		</div><!-- FIN DIV Form example -->
+
 		<!--BOTON FLOTANTE I-->
 		<div class="fixed-action-btn">
 			<a class="btn-floating btn-large pulse red darken-4 z-depth-4">
@@ -427,7 +442,9 @@
 				</li>
 			</ul>
 		</div><!--FIN BOTON FLOTANTE I-->
+
 <!--=======================================================================-->
+
 		<!-- DIV Colapsables example -->
 		<div class="row indigo lighten-5 z-depth-4">
 			<!-- DIV.COL S12 -->
@@ -490,6 +507,7 @@
 				</div>
 			</div><!-- FIN DIV.COL S12 -->
 		</div><!-- FIN DIV Colapsables example -->
+
 		<!-- DIV Tables example -->
 		<div class="row indigo lighten-5 z-depth-4">
 			<!-- DIV COL S12 -->
@@ -556,6 +574,7 @@
 				</div><!-- FIN DIV.Container -->
 			</div><!-- FIN DIV COL S12 -->
 		</div><!-- DIV Tables example -->
+
 		<!-- DIV Parallax & Slider -->
 		<div class="row indigo lighten-5 z-depth-4">
 			<!-- DIV COL S12 -->
@@ -604,10 +623,12 @@
 							</div>
 						</div>
 					</section>	<!-- Seccion Slider Example -->
+
 				</div><!-- FIN DIV CONTAINER Slider-->
 			</div><!-- FIN DIV COL S12 -->
 		</div><!-- FIN DIV Parallax & Slider -->
 	</div><!-- FIN DIV CONTAINER I-->
+
 	<!-- PARALLAX -->
 	<section>
 		<div class="row">
@@ -633,9 +654,11 @@
 				<div class="parallax-container">
 					<div class="parallax"><img src="../PracticasMaterialize/public/img/img2.jpg"></div>
 				</div>
+
 			</div><!-- FIN DIV.COL S12 -->
 		</div><!-- FIN DIV.Row -->
 	</section><!-- FIN PARALLAX -->
+
 	<!-- DIV.Container II-->
 	<div class="container">
 		<!-- DIV Carousel example -->
@@ -671,6 +694,7 @@
 				</div><!-- FIN DIV.Container carousel-->
 			</div><!-- FIN DIV COL S12 -->
 		</div><!-- DIV Carousel example -->
+
 		<!-- DIV Modal's example -->
 		<div class="row indigo lighten-5 z-depth-4">
 			<!-- DIV COL S12 -->
@@ -709,6 +733,7 @@
 						  <button data-target="modal3" class="btn modal-trigger">Modal</button>
 					  </div>
 				  </div>
+
 				  <!-- Modal Structure I-->
 				  <div id="modal1" class="modal">
 				    <div class="modal-content">
@@ -719,6 +744,7 @@
 			      		<a href="" class="modal-close waves-effect waves-green btn-flat">Cerrar</a>
 				    </div>
 				  </div><!-- FIN DIV.Container Modal-->
+
 				  <!-- Modal Structure II-->
 				  <div id="modal2" class="modal modal-fixed-footer">
 				    <div class="modal-content">
@@ -729,6 +755,7 @@
 			      		<a href="" class="modal-close waves-effect waves-green btn-flat">Cerrar</a>
 				    </div>
 				  </div><!-- FIN DIV.Container Modal-->
+
 				  <!-- Modal Structure III-->
 				  <div id="modal3" class="modal bottom-sheet">
 				    <div class="modal-content">
@@ -739,8 +766,10 @@
 			      		<a href="" class="modal-close waves-effect waves-green btn-flat">Cerrar</a>
 				    </div>
 				  </div><!-- FIN DIV.Container Modal-->
+
 			</div><!-- FIN DIV COL S12 -->
 		</div><!-- DIV Modal's example -->
+
 		<!-- DIV Modal's example -->
 		<div class="row indigo lighten-5 z-depth-4">
 			<!-- DIV COL S12 -->
@@ -750,10 +779,14 @@
 					<b class="teal-text"><em>Materialize CSS.</em></b>
 				</h4>
 				<hr class="indigo lighten-5 z-depth-1">
+
 				</div>
+
 			</div><!-- FIN DIV COL S12 -->
 		</div><!-- DIV Modal's example -->
+
 	</div><!-- FIN DIV.Container II-->
+
     <footer class="page-footer red darken-4">
       <div class="container">
         <div class="row">
@@ -792,6 +825,7 @@
         </div>
       </div>
     </footer>
+
 	<!-- JQuery JS v-2.2.3 -->
 	<script src="public/js/jQuery/jquery-2.2.3.min.js"></script>
 	<!-- Materialize JS v -->
@@ -800,8 +834,10 @@
 	<script>
 	  $(document).ready(function(){
 	    $('.sidenav').sidenav(); // inicializa el menu en el navbar.
+
 	    /* Inicializa el Contador de Caracteres en los inputs */
 	    $('input#input_text, textarea#textarea2').characterCounter();
+
 	    /* Inicializo el Calendario */
 	    $('.datepicker').datepicker();
 	    /* Inicializo el Calendario para Horas */
@@ -831,6 +867,8 @@
 	    $('.carousel').carousel();
 	    /* Inicializacion del Modal*/
 	    $('.modal').modal();
+
+
 	  });
 	  /* Muestra el Ancho de la Ventana al Reducir el Navegador.
 	  *
