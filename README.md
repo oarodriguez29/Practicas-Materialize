@@ -1,5 +1,5 @@
 <h1>Documentación y Prácticas de Materialize Css</h1>
-<p>Ver Pagina: https://oarodriguez29.github.io/Practicas-Materialize/</p>
+<p>Ver Pagina: https://oarodriguez29.github.io/PracticasMaterialize/</p>
 <br>
 
 <p align="center">
