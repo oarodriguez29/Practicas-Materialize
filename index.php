@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<?php prit $_SERVER[HTTP_HOST] . $_SERVER[REQUEST_URI]; ?>
 <html lang="es">
+<?php print $_SERVER[HTTP_HOST] . $_SERVER[REQUEST_URI]; ?>
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
